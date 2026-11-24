@@ -1,7 +1,9 @@
-# catchcheck
+# redhanded
+
+> Catch the tests that don't catch the change.
 
 **Does a pull request's new or changed test actually react to the code change?**
-catchcheck gives a reviewer evidence, per test, by running the PR's tests twice: once on the PR's code and once on the code from before the PR.
+redhanded gives a reviewer evidence, per test, by running the PR's tests twice: once on the PR's code and once on the code from before the PR.
 
 > Status: working prototype. Python/pytest only. A diagnostic for reviewers, not a CI gate.
 
@@ -9,11 +11,11 @@ catchcheck gives a reviewer evidence, per test, by running the PR's tests twice:
 
 ## The problem
 
-A PR adds a test and some code. Reviewers usually trust that the new test covers the change. Often it does. Sometimes the test passes on the old code too, fails for an unrelated reason, or never runs the changed lines at all. catchcheck measures that instead of assuming it.
+A PR adds a test and some code. Reviewers usually trust that the new test covers the change. Often it does. Sometimes the test passes on the old code too, fails for an unrelated reason, or never runs the changed lines at all. redhanded measures that instead of assuming it.
 
 ## What it does
 
-For each new or modified test function in a PR, catchcheck runs pytest on two trees, 3 times each:
+For each new or modified test function in a PR, redhanded runs pytest on two trees, 3 times each:
 
 - **HEAD** — the PR's code.
 - **BASE** — the code before the PR, with the PR's test files copied on top.
@@ -26,13 +28,15 @@ Every test run happens inside a bubblewrap sandbox: no network, read-only system
 
 ## Quick start
 
+The script is still named `catchcheck.py` (its original working name); the project is redhanded.
+
 Requirements: Linux with `bwrap` (bubblewrap), `git`, Python 3.10+.
 
 ```bash
 # 1. Build a wheels-only venv with the project's test dependencies
 ./build_venv.sh ~/venvs/myproject [project test dependencies...]
 
-# 2. Run catchcheck against a local clone
+# 2. Run redhanded against a local clone
 python3 catchcheck.py \
   --gitdir /path/to/clone \
   --base BASE_SHA --head HEAD_SHA \
@@ -143,7 +147,7 @@ Four candidates were dropped because the derived base commit pulled in unrelated
 
 ## Comparison with failfirst
 
-[failfirst](https://github.com/BenMalaga/failfirst) (v0.1.0, commit `14e02b9`, MIT) runs the same basic check for JavaScript (node:test, vitest, jest): run a PR's new tests on the old code and flag the ones that pass. The base idea is not new here, and no failfirst code is used — catchcheck is an independent Python implementation. Its source was read at that commit (`src/verdict.js`, `src/runners.js`, `src/cli.js`, `src/detect.js`, README).
+[failfirst](https://github.com/BenMalaga/failfirst) (v0.1.0, commit `14e02b9`, MIT) runs the same basic check for JavaScript (node:test, vitest, jest): run a PR's new tests on the old code and flag the ones that pass. The base idea is not new here, and no failfirst code is used — redhanded is an independent Python implementation. Its source was read at that commit (`src/verdict.js`, `src/runners.js`, `src/cli.js`, `src/detect.js`, README).
 
 **Executed** (real failfirst on a small two-commit JS fixture, see `results/failfirst_js_fixture_run.txt`): one new import crashed the whole test file on base, so every test in it — including one that never touched new behavior — was labelled GOOD. Tests already present by name were PRE-EXISTING and not judged, including an edited one.
 
