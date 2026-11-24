@@ -183,4 +183,4 @@ This is **not** safe-for-production CI isolation. Known gaps:
 - Original code in this repository. The red/green idea (run new tests on old code) predates it; see failfirst above and fail-to-pass validation in [SWE-bench](https://github.com/princeton-nlp/SWE-bench).
 - The Python libraries and test suites used in the trial belong to their authors under their own licenses; only their public commits were read and run.
 - Runtime dependencies: pytest, pytest-cov, coverage (installed from PyPI by `build_venv.sh`).
-- No license is attached yet; this is a private working copy.
+- No license file is included.
