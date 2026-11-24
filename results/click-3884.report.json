@@ -1,0 +1,2157 @@
+{
+ "whole_file_mode": [
+  "tests/test_options.py"
+ ],
+ "label": "click#3884",
+ "base": "bb695aaecdef95832d167fc1d508921745aa824e",
+ "head": "c53d3732b98c764932e146c007146ad402acb229",
+ "k": 3,
+ "changed_source_files": [
+  "src/click/core.py"
+ ],
+ "changed_non_python": [
+  "CHANGES.md"
+ ],
+ "test_files_run": [
+  "tests/test_options.py"
+ ],
+ "pytest_exit_codes": {
+  "head": [
+   0,
+   0,
+   0
+  ],
+  "base": [
+   1,
+   1,
+   1
+  ]
+ },
+ "env_fail": {
+  "head": false,
+  "base": false
+ },
+ "coverage_linkage": false,
+ "rows": [
+  {
+   "file": "tests/test_options.py",
+   "test": "test_aliases_for_flags",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_argument_custom_class",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_argument_sharing_param_name_warning",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_bad_defaults_for_multiple",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     16,
+     0
+    ],
+    "base": [
+     16,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_bool_flag_group_competition",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     22,
+     0
+    ],
+    "base": [
+     22,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_bool_flag_group_competition_with_default_map",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     4,
+     0
+    ],
+    "base": [
+     4,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_bool_flag_group_competition_with_envvar",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     4,
+     0
+    ],
+    "base": [
+     4,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_bool_flag_group_parameter_source",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     3,
+     0
+    ],
+    "base": [
+     3,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_bool_flag_pair_default",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     6,
+     0
+    ],
+    "base": [
+     6,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_bool_flag_with_type",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_boolean_envvar_bad_values",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     17,
+     0
+    ],
+    "base": [
+     17,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_boolean_flag_envvar",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     45,
+     0
+    ],
+    "base": [
+     45,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_callable_flag_value_default_map",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_callable_flag_value_get_default_override",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     4,
+     0
+    ],
+    "base": [
+     4,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_callable_flag_value_not_instantiated",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     8,
+     0
+    ],
+    "base": [
+     8,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_callable_flag_value_show_default",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_callback_validates_prompt",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_case_insensitive_choice",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_case_insensitive_choice_returned_exactly",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_choice_default_rendering",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     27,
+     0
+    ],
+    "base": [
+     27,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_choice_usage_rendering",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     10,
+     0
+    ],
+    "base": [
+     10,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_count_default_type_help",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_counting",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_custom_type_container_flag_value",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     3,
+     0
+    ],
+    "base": [
+     3,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_custom_type_flag_value_dual_options",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     17,
+     0
+    ],
+    "base": [
+     17,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_custom_type_flag_value_standalone_option",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     30,
+     0
+    ],
+    "base": [
+     30,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_custom_validation",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_default_dual_option_callback",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     21,
+     0
+    ],
+    "base": [
+     21,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_deprecated_empty_help_no_leading_space",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     4,
+     0
+    ],
+    "base": [
+     4,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_deprecated_prompt",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_deprecated_required",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_deprecated_usage",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     2,
+     0
+    ],
+    "base": [
+     2,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_deprecated_warning",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     2,
+     0
+    ],
+    "base": [
+     2,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_do_not_show_default_empty_multiple",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_do_not_show_no_default",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_dual_options_custom_type_sentinel_flag_value",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     20,
+     0
+    ],
+    "base": [
+     20,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_duplicate_names_warning",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     2,
+     0
+    ],
+    "base": [
+     2,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_dynamic_default_help_special_method",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_dynamic_default_help_text",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_dynamic_default_help_unset",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_empty_envvar",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     2,
+     0
+    ],
+    "base": [
+     2,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_envvar_container_type",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_envvar_string_flag_value",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     71,
+     0
+    ],
+    "base": [
+     71,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_file_type_help_default",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_flag_auto_detection",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     9,
+     0
+    ],
+    "base": [
+     9,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_flag_duplicate_names",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_flag_group_competition_duplicate_option_name",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_flag_group_competition_envvar_prefix_and_unset_default_map",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     4,
+     0
+    ],
+    "base": [
+     4,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_flag_group_competition_four_flags",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     4,
+     0
+    ],
+    "base": [
+     4,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_flag_group_competition_non_boolean",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     25,
+     0
+    ],
+    "base": [
+     25,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_flag_group_competition_repeated_cmdline",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     4,
+     0
+    ],
+    "base": [
+     4,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_flag_group_unset_vs_none_vs_explicit",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     9,
+     0
+    ],
+    "base": [
+     9,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_flag_value_and_default",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     80,
+     0
+    ],
+    "base": [
+     80,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_flag_value_not_stringified_for_custom_types",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_flag_value_on_option_with_zero_or_one_args",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     6,
+     0
+    ],
+    "base": [
+     6,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_good_defaults_for_multiple",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     34,
+     0
+    ],
+    "base": [
+     34,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_help_option_custom_names_and_class",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     6,
+     0
+    ],
+    "base": [
+     6,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_help_spec",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     8,
+     0
+    ],
+    "base": [
+     8,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_hide_false_default_boolean_flag_value",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     2,
+     0
+    ],
+    "base": [
+     2,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_intrange_default_help_text",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     4,
+     0
+    ],
+    "base": [
+     4,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_invalid_flag_combinations",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     2,
+     0
+    ],
+    "base": [
+     2,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_invalid_flag_definition",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     4,
+     0
+    ],
+    "base": [
+     4,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_invalid_nargs",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_invalid_option",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_legacy_options",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_missing_choice",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_missing_envvar",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_missing_envvar_sequence",
+   "kind": "new",
+   "verdict": "ASSERTION-DIFFERS",
+   "why": "assertion fails on base, passes on head: assert \"Error: Missing option '--units' (env var: 'UNITS').\" in \"Usage: cli [OPTIONS]\\nTry 'cli --help' for help.\\n\\nError: Missing option '",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     6,
+     0
+    ],
+    "base": [
+     6,
+     5
+    ]
+   },
+   "base": "fail/assertion",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_missing_required_flag",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_multiple_default_composite_type",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_multiple_default_help",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_multiple_default_type",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_multiple_envvar",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_multiple_option_with_optional_value",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_multiple_required",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_nargs_envvar",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_nargs_tup_composite_mult",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_non_flag_with_non_negatable_default",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_option_custom_class",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_option_custom_class_can_override_type_cast_value_and_never_sees_unset",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     5,
+     0
+    ],
+    "base": [
+     5,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_option_custom_class_reusable",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_option_help_preserve_paragraphs",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_option_names",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     10,
+     0
+    ],
+    "base": [
+     10,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_option_with_optional_value",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     14,
+     0
+    ],
+    "base": [
+     14,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_options_sharing_name_no_warning",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_parse_multiple_default_composite_type",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_prefixes",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_required_option",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     13,
+     0
+    ],
+    "base": [
+     13,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_show_default_boolean_flag_name",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     2,
+     0
+    ],
+    "base": [
+     2,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_show_default_container_defaults",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_show_default_default_map",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_show_default_precedence",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     10,
+     0
+    ],
+    "base": [
+     10,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_show_default_string",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_show_default_with_empty_string",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     2,
+     0
+    ],
+    "base": [
+     2,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_show_envvar",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_show_envvar_auto_prefix",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_show_envvar_auto_prefix_dash_in_command",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_show_envvar_empty",
+   "kind": "new",
+   "verdict": "ASSERTION-DIFFERS",
+   "why": "assertion fails on base, passes on head: AssertionError: assert '  --units TEXT\\n' in 'Usage: cli [OPTIONS]\\n\\nOptions:\\n  --units TEXT  [env var: ]\\n  --help        Show this messa",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     6,
+     0
+    ],
+    "base": [
+     6,
+     4
+    ]
+   },
+   "base": "fail/assertion",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_show_true_default_boolean_flag_value",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_string_show_default_shows_custom_string_in_prompt",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_suggest_possible_options",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     3,
+     0
+    ],
+    "base": [
+     3,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_toupper_envvar_prefix",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_type_from_default_container",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     6,
+     0
+    ],
+    "base": [
+     6,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_type_from_flag_value",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_unknown_options",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     2,
+     0
+    ],
+    "base": [
+     2,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_options.py",
+   "test": "test_winstyle_options",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  }
+ ]
+}

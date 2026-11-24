@@ -1,0 +1,1335 @@
+{
+ "whole_file_mode": [
+  "tests/test_tzfile.py"
+ ],
+ "label": "dateutil#1667",
+ "base": "a78cbd81d5d03b5f126eb36edb92bca78972c804",
+ "head": "7d0e05cd89ae618695e20830f1fa9679df9ca17e",
+ "k": 3,
+ "changed_source_files": [
+  "src/dateutil/tz/_tzfile.py"
+ ],
+ "changed_non_python": [
+  "changelog.d/1667.bugfix.rst"
+ ],
+ "test_files_run": [
+  "tests/test_tzfile.py"
+ ],
+ "pytest_exit_codes": {
+  "head": [
+   1,
+   1,
+   1
+  ],
+  "base": [
+   1,
+   1,
+   1
+  ]
+ },
+ "env_fail": {
+  "head": false,
+  "base": false
+ },
+ "coverage_linkage": false,
+ "rows": [
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_available_iana_timezones_empty",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_available_iana_timezones_fresh_set",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_available_iana_timezones_missing_path",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_available_iana_timezones_tzpath_only",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_available_iana_timezones_with_tzdata",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_dst_inference",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     6,
+     0
+    ],
+    "base": [
+     6,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_empty_zone",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_eq_no_transitions",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_eq_same_transitions_different_tzstr",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_extreme_tzstr",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     55,
+     0
+    ],
+    "base": [
+     55,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_fixed_offset_never_ambiguous_or_imaginary",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     4,
+     0
+    ],
+    "base": [
+     4,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_folds_from_utc",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     144,
+     0
+    ],
+    "base": [
+     144,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_fromutc_errors",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     6,
+     0
+    ],
+    "base": [
+     6,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_gaps_and_folds",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1836,
+     0
+    ],
+    "base": [
+     1836,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_gettz_absolute_path",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_gettz_absolute_path_not_a_zone",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_gettz_invalid_file_on_tzpath_falls_back_to_tzdata",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     3,
+     0
+    ],
+    "base": [
+     3,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_gettz_key_attribute_by_source",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     2,
+     0
+    ],
+    "base": [
+     2,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_gettz_key_inside_tzpath_does_not_warn",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     3,
+     0
+    ],
+    "base": [
+     3,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_gettz_key_outside_tzpath_can_be_allowed",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_gettz_key_outside_tzpath_is_an_error",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     3,
+     0
+    ],
+    "base": [
+     3,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_gettz_local_abbreviation_without_time_zone_data",
+   "kind": "unchanged",
+   "verdict": "FAILS-ON-BOTH",
+   "why": "same failure on base and head (likely sandbox/environment or pre-existing): AssertionError: assert False",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     1
+    ],
+    "base": [
+     1,
+     1
+    ]
+   },
+   "base": "fail/assertion",
+   "head": "fail"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_gettz_missing_search_path_entry",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_gettz_skips_invalid_file_on_tzpath",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     3,
+     0
+    ],
+    "base": [
+     3,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_gettz_space_for_underscore",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     2,
+     0
+    ],
+    "base": [
+     2,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_gettz_thread_safety",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_gettz_tzpath_bad_keys",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     5,
+     0
+    ],
+    "base": [
+     5,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_gettz_utc_without_time_zone_data",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     2,
+     0
+    ],
+    "base": [
+     2,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_invalid_transition_index",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_invalid_tzpath_warning_is_zoneinfos",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_invalid_tzstr",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     82,
+     0
+    ],
+    "base": [
+     82,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_invalid_tzstr_non_ascii",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     2,
+     0
+    ],
+    "base": [
+     2,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_is_ambiguous_none",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     2,
+     0
+    ],
+    "base": [
+     2,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_leap_seconds_and_indicators",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     24,
+     0
+    ],
+    "base": [
+     24,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_missing_footer_newline",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_no_transitions_uses_time_type_0",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     3,
+     0
+    ],
+    "base": [
+     3,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_no_tz_data",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_pickle_no_extra_state",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     3,
+     0
+    ],
+    "base": [
+     3,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_pickle_subclass_attributes",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     6,
+     0
+    ],
+    "base": [
+     6,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_stream_position_after_leap_seconds",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     8,
+     0
+    ],
+    "base": [
+     8,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_sub_minute_offset",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_sub_minute_offset_pickle",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     6,
+     0
+    ],
+    "base": [
+     6,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_sub_minute_offset_round_trip",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_sub_minute_offset_tz_str",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     4,
+     0
+    ],
+    "base": [
+     4,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_time_fixed_offset",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_time_varying_offset",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_transition_lookahead_out_of_bounds",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_truncated_file",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     3,
+     0
+    ],
+    "base": [
+     3,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_truncated_file_on_tzpath",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_truncated_footer",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     4,
+     0
+    ],
+    "base": [
+     4,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_tz_tzpath_tracks_reset",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_tzdata_bad_keys",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     14,
+     0
+    ],
+    "base": [
+     14,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_tzfile_from_pipe",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_tzfile_from_read_only_object",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_tzfile_repr",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_tzpath_setting",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_tzstr_day_of_year_rules",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     4,
+     0
+    ],
+    "base": [
+     4,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_tzstr_dst_all_year",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     4,
+     0
+    ],
+    "base": [
+     4,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_tzstr_near_min_and_max_year",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     23,
+     0
+    ],
+    "base": [
+     23,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_unambiguous",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     342,
+     0
+    ],
+    "base": [
+     342,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_update_tzif_file_to_v1",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     4,
+     0
+    ],
+    "base": [
+     4,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_weirdzone_offsets",
+   "kind": "unchanged",
+   "verdict": "ASSERTION-DIFFERS",
+   "why": "assertion fails on base, passes on head: AssertionError: assert datetime.timedelta(days=-1, seconds=82800) == datetime.timedelta(seconds=3600)",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     146,
+     0
+    ],
+    "base": [
+     146,
+     4
+    ]
+   },
+   "base": "fail/assertion",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_weirdzone_time_none",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     17,
+     0
+    ],
+    "base": [
+     17,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_weirdzone_utc",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     114,
+     0
+    ],
+    "base": [
+     114,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_gettz_local_abbreviation_without_time_zone_data",
+   "kind": "unattributed-change",
+   "verdict": "FAILS-ON-BOTH",
+   "why": "same failure on base and head (likely sandbox/environment or pre-existing): AssertionError: assert False",
+   "base": "fail/assertion",
+   "head": "fail"
+  },
+  {
+   "file": "tests/test_tzfile.py",
+   "test": "test_weirdzone_offsets",
+   "kind": "unattributed-change",
+   "verdict": "ASSERTION-DIFFERS",
+   "why": "assertion fails on base, passes on head: AssertionError: assert datetime.timedelta(days=-1, seconds=82800) == datetime.timedelta(seconds=3600)",
+   "base": "fail/assertion",
+   "head": "pass"
+  }
+ ]
+}

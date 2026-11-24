@@ -1,0 +1,18 @@
+failfirst v0.1.0
+  base     base-ref (merge-base 54c4ed5)
+  runner   node-test
+  changed  1 test file(s)
+
+  running 1 file(s) against base 54c4ed5...
+  running 1 file(s) against HEAD...
+
+  TEST                                                                           BASE    HEAD   VERDICT     
+  test/calc.test.js > add                                                        error   pass   PRE-EXISTING
+  test/calc.test.js > divide old expectation                                     error   pass   PRE-EXISTING
+  test/calc.test.js > divide float fix is NOT tested here but test is modified   error   pass   GOOD        
+  test/calc.test.js > sneaky: imports multiply, checks only add                  error   pass   GOOD        
+  test/calc.test.js > multiply                                                   error   pass   GOOD        
+
+  3 good, 2 pre-existing
+
+PASS: all 3 new tests fail on the base commit.

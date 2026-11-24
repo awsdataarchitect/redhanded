@@ -1,0 +1,175 @@
+{
+ "whole_file_mode": [],
+ "label": "synthetic-edge",
+ "base": "d1615eb905ee477f2c1ca9c770107e8749258a56",
+ "head": "1d7df0ee21b57879d951648f12eabd78dee3a68c",
+ "k": 3,
+ "changed_source_files": [
+  "pkg/shapes.py"
+ ],
+ "changed_non_python": [],
+ "test_files_run": [
+  "tests/test_deco.py",
+  "tests/test_edge.py",
+  "tests/test_subclass.py"
+ ],
+ "pytest_exit_codes": {
+  "head": [
+   0,
+   0,
+   0
+  ],
+  "base": [
+   4,
+   4,
+   4
+  ]
+ },
+ "env_fail": {
+  "head": false,
+  "base": false
+ },
+ "coverage_linkage": true,
+ "rows": [
+  {
+   "file": "tests/test_deco.py",
+   "test": "test_uses_decorated_helper",
+   "kind": "new",
+   "verdict": "NEEDS-NEW-API",
+   "why": "file cannot import on base (ImportError: ImportError: cannot import name 'new_decorator' from 'pkg.shapes' (/w/tree/pkg/shapes.py)): shows a symbol is new, not that behavior was reproduced; 2 changed line(s) run only at import time (module-level data), so per-test linkage is unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": "fail/collection",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_edge.py",
+   "test": "test_hasattr_guard",
+   "kind": "new",
+   "verdict": "INCONCLUSIVE-INSTRUMENTED",
+   "why": "base only runs with stubbed names, and this file uses hasattr, skipif, which the stub could steer; no verdict (assertion fails on base, passes on head, executes 1 changed line(s): assert 2 ==)",
+   "basis": "instrumented-base (counterfactual; missing names stubbed)",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": "fail/assertion",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_edge.py",
+   "test": "test_isinstance_new_class",
+   "kind": "new",
+   "verdict": "INCONCLUSIVE-INSTRUMENTED",
+   "why": "base only runs with stubbed names, and this file uses hasattr, skipif, which the stub could steer; no verdict (this test uses a symbol that does not exist on base: shows the API is new, not t)",
+   "basis": "instrumented-base (counterfactual; missing names stubbed)",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": "fail/error",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_edge.py",
+   "test": "test_lazy_runtime_import",
+   "kind": "new",
+   "verdict": "INCONCLUSIVE-INSTRUMENTED",
+   "why": "base only runs with stubbed names, and this file uses hasattr, skipif, which the stub could steer; no verdict (assertion fails on base, passes on head, executes 1 changed line(s): assert 2 ==)",
+   "basis": "instrumented-base (counterfactual; missing names stubbed)",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": "fail/assertion",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_edge.py",
+   "test": "test_perim_fix",
+   "kind": "new",
+   "verdict": "INCONCLUSIVE-INSTRUMENTED",
+   "why": "base only runs with stubbed names, and this file uses hasattr, skipif, which the stub could steer; no verdict (assertion fails on base, passes on head, executes 1 changed line(s): assert 5 ==)",
+   "basis": "instrumented-base (counterfactual; missing names stubbed)",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": "fail/assertion",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_edge.py",
+   "test": "test_untouched_by_new_name",
+   "kind": "new",
+   "verdict": "INCONCLUSIVE-INSTRUMENTED",
+   "why": "base only runs with stubbed names, and this file uses hasattr, skipif, which the stub could steer; no verdict (coverage linkage unavailable (changed lines run at import time only))",
+   "basis": "instrumented-base (counterfactual; missing names stubbed)",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_subclass.py",
+   "test": "test_euro",
+   "kind": "new",
+   "verdict": "NEEDS-NEW-API",
+   "why": "file cannot import on base (ImportError: ImportError: cannot import name 'Money' from 'pkg.shapes' (/w/tree/pkg/shapes.py)): shows a symbol is new, not that behavior was reproduced; 2 changed line(s) run only at import time (module-level data), so per-test linkage is unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": "fail/collection",
+   "head": "pass"
+  }
+ ]
+}

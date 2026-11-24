@@ -1,0 +1,4013 @@
+{
+ "whole_file_mode": [],
+ "label": "python-tabulate#176",
+ "base": "8f32086665760bcb2bd729623dc58a8da259a68b",
+ "head": "bc955ee6054a29f04d197eefbe56e94f966598b1",
+ "k": 3,
+ "changed_source_files": [
+  "tabulate/__init__.py"
+ ],
+ "changed_non_python": [],
+ "test_files_run": [
+  "test/test_output.py"
+ ],
+ "pytest_exit_codes": {
+  "head": [
+   0,
+   0,
+   0
+  ],
+  "base": [
+   1,
+   1,
+   1
+  ]
+ },
+ "env_fail": {
+  "head": false,
+  "base": false
+ },
+ "coverage_linkage": true,
+ "rows": [
+  {
+   "file": "test/test_output.py",
+   "test": "test_asciidoc",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_asciidoc_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_break_long_words",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_break_on_hyphens",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_colalign_multi",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_colalign_multi_with_sep_line",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_colalign_or_headersalign_too_long",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_colon_grid",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_colon_grid_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_colon_grid_multiline",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_colon_grid_wide_characters",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_colon_grid_with_empty_cells",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_column_alignment",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_column_emptymissing_deduction",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_column_global_and_specific_alignment",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_dict_like_with_index",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_disable_numparse_default",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_disable_numparse_list",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_disable_numparse_true",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_double_grid",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_double_grid_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_double_grid_multiline",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_double_grid_multiline_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_double_grid_multiline_with_empty_cells",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_double_grid_multiline_with_empty_cells_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_double_grid_wide_characters",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_double_outline",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_double_outline_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_double_outline_wide_characters",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_empty_data",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_empty_data_with_headers",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_empty_data_without_headers",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_fancy_grid",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_fancy_grid_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_fancy_grid_multiline",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_fancy_grid_multiline_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_fancy_grid_multiline_row_align",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_fancy_grid_multiline_with_empty_cells",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_fancy_grid_multiline_with_empty_cells_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_fancy_grid_wide_characters",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_fancy_outline",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_fancy_outline_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_fancy_outline_wide_characters",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_float_conversions",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_floatfmt",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_floatfmt_decimal",
+   "kind": "new",
+   "verdict": "ASSERTION-DIFFERS",
+   "why": "assertion fails on base, passes on head, executes 2 changed line(s): AssertionError",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     1
+    ]
+   },
+   "base": "fail/assertion",
+   "head": "pass"
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_floatfmt_multi",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_floatfmt_thousands",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_github",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_github_multiline",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_grid",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_grid_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_grid_multiline",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_grid_multiline_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_grid_multiline_with_empty_cells",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_grid_multiline_with_empty_cells_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_grid_wide_characters",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_headers_global_and_specific_alignment",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_heavy_grid",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_heavy_grid_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_heavy_grid_multiline",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_heavy_grid_multiline_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_heavy_grid_multiline_with_empty_cells",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_heavy_grid_multiline_with_empty_cells_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_heavy_grid_wide_characters",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_heavy_outline",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_heavy_outline_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_heavy_outline_wide_characters",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_html",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_html_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_intfmt",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_intfmt_with_colors",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_intfmt_with_string_as_integer",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_intfmt_with_string_with_floats",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_jira",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_jira_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_latex",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_latex_booktabs",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_latex_booktabs_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_latex_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_latex_raw",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_list_of_lists_with_index",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_list_of_lists_with_index_firstrow",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_list_of_lists_with_index_with_sep_line",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_list_of_lists_with_supplied_index",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_maxcolwidth_honor_disable_parsenum",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_maxcolwidth_pad_tailing_widths",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_maxcolwidth_single_value",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_mediawiki",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_mediawiki_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_missingval",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_missingval_multi",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_mixed_grid",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_mixed_grid_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_mixed_grid_multiline",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_mixed_grid_multiline_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_mixed_grid_multiline_with_empty_cells",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_mixed_grid_multiline_with_empty_cells_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_mixed_grid_wide_characters",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_mixed_outline",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_mixed_outline_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_mixed_outline_wide_characters",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_moinmoin",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_moinmoin_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_no_data",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_no_data_without_headers",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_orgtbl",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_orgtbl_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_orgtbl_multiline_2_with_sep_line",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_orgtbl_with_sep_line",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_outline",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_outline_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_outline_wide_characters",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_pandas_rst_with_index",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_pandas_rst_with_named_index",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_pandas_with_index",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_pandas_without_index",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_pipe",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_pipe_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_plain",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_plain_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_plain_maxcolwidth_autowraps",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_plain_maxcolwidth_autowraps_wide_chars",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_plain_maxcolwidth_autowraps_with_sep",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_plain_maxheadercolwidths_autowraps",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_plain_multiline",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_plain_multiline_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_plain_multiline_with_empty_cells",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_plain_multiline_with_empty_cells_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_plain_multiline_with_links",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_preserve_whitespace",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_presto",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_presto_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_presto_multiline",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_presto_multiline_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_presto_multiline_with_empty_cells",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_presto_multiline_with_empty_cells_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_pretty",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_pretty_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_pretty_multiline",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_pretty_multiline_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_pretty_multiline_with_empty_cells",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_pretty_multiline_with_empty_cells_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_pretty_multiline_with_links",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_psql",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_psql_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_psql_multiline",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_psql_multiline_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_psql_multiline_with_empty_cells",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_psql_multiline_with_empty_cells_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_readme_example_with_sep",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_rounded_grid",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_rounded_grid_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_rounded_grid_multiline",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_rounded_grid_multiline_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_rounded_grid_multiline_with_empty_cells",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_rounded_grid_multiline_with_empty_cells_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_rounded_grid_wide_characters",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_rounded_outline",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_rounded_outline_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_rounded_outline_wide_characters",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_rst",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_rst_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_rst_multiline",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_rst_multiline_with_empty_cells",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_rst_multiline_with_empty_cells_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_rst_multiline_with_links",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_rst_with_empty_values_in_first_column",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_simple",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_simple_grid",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_simple_grid_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_simple_grid_multiline",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_simple_grid_multiline_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_simple_grid_multiline_with_empty_cells",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_simple_grid_multiline_with_empty_cells_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_simple_grid_wide_characters",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_simple_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_simple_headerless_with_sep_line",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_simple_headerless_with_sep_line_with_linebetweenrows_in_tablefmt",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_simple_headerless_with_sep_line_with_padding_in_tablefmt",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_simple_multiline",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_simple_multiline_2",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_simple_multiline_2_with_sep_line",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_simple_multiline_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_simple_multiline_with_empty_cells",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_simple_multiline_with_empty_cells_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_simple_multiline_with_links",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_simple_outline",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_simple_outline_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_simple_outline_wide_characters",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_simple_with_sep_line",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_textile",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_textile_with_center_align",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_textile_with_header",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_unaligned_separated",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_unsafehtml",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_unsafehtml_headerless",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_warning_when_colalign_or_headersalign_is_string",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "test/test_output.py",
+   "test": "test_with_padded_columns_with_sep_line",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  }
+ ]
+}

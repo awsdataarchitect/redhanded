@@ -1,0 +1,97 @@
+{
+ "whole_file_mode": [
+  "tests/test_utils/test_sentinel.py"
+ ],
+ "label": "click#3805",
+ "base": "420c8fb44eeadb537cae69d2fee3796e808558dd",
+ "head": "f58ca3e81424a35626c8a475eb59ab95589008ce",
+ "k": 3,
+ "changed_source_files": [
+  "src/click/_utils.py"
+ ],
+ "changed_non_python": [
+  "CHANGES.md"
+ ],
+ "test_files_run": [
+  "tests/test_utils/test_sentinel.py"
+ ],
+ "pytest_exit_codes": {
+  "head": [
+   0,
+   0,
+   0
+  ],
+  "base": [
+   1,
+   1,
+   1
+  ]
+ },
+ "env_fail": {
+  "head": false,
+  "base": false
+ },
+ "coverage_linkage": false,
+ "rows": [
+  {
+   "file": "tests/test_utils/test_sentinel.py",
+   "test": "test_parameter_duplication",
+   "kind": "new",
+   "verdict": "BASE-RUNTIME-ERROR",
+   "why": "ValueError on base (<object object at 0x7f88bdd87270> is not a valid Sentinel); raises on base where head succeeds; plausible behavior difference, review the traceback",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     3,
+     0
+    ],
+    "base": [
+     3,
+     2
+    ]
+   },
+   "base": "fail/error",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_utils/test_sentinel.py",
+   "test": "test_sentinel_duplication_preserves_identity",
+   "kind": "new",
+   "verdict": "BASE-RUNTIME-ERROR",
+   "why": "ValueError on base (<object object at 0x7f88bdd86b10> is not a valid Sentinel); raises on base where head succeeds; plausible behavior difference, review the traceback",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     6,
+     0
+    ],
+    "base": [
+     6,
+     4
+    ]
+   },
+   "base": "fail/error",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_utils/test_sentinel.py",
+   "test": "test_unset_sentinel",
+   "kind": "unchanged",
+   "verdict": "PASSES-BOTH",
+   "why": "coverage linkage unavailable",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     0
+    ]
+   },
+   "base": "pass",
+   "head": "pass"
+  }
+ ]
+}

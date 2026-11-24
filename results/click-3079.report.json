@@ -1,0 +1,155 @@
+{
+ "whole_file_mode": [],
+ "label": "click#3079",
+ "base": "6a1c0d077311f180b356965914e2de5b9e0fdb44",
+ "head": "189068aa606b3b1042b312b7e964a1fbf915727e",
+ "k": 3,
+ "changed_source_files": [
+  "src/click/core.py"
+ ],
+ "changed_non_python": [
+  "CHANGES.rst"
+ ],
+ "test_files_run": [
+  "tests/test_defaults.py"
+ ],
+ "pytest_exit_codes": {
+  "head": [
+   0,
+   0,
+   0
+  ],
+  "base": [
+   1,
+   1,
+   1
+  ]
+ },
+ "env_fail": {
+  "head": false,
+  "base": false
+ },
+ "coverage_linkage": true,
+ "rows": [
+  {
+   "file": "tests/test_defaults.py",
+   "test": "test_basic_defaults",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_defaults.py",
+   "test": "test_flag_default_map",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_defaults.py",
+   "test": "test_multiple_defaults",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_defaults.py",
+   "test": "test_multiple_flag_default",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_defaults.py",
+   "test": "test_nargs_plus_multiple",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_defaults.py",
+   "test": "test_shared_param_prefers_first_default",
+   "kind": "new",
+   "verdict": "ASSERTION-DIFFERS",
+   "why": "assertion fails on base, passes on head, executes 4 changed line(s): AssertionError: assert 'green' in '\\n'",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     1,
+     1
+    ]
+   },
+   "base": "fail/assertion",
+   "head": "pass"
+  }
+ ]
+}

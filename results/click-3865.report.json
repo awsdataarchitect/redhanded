@@ -1,0 +1,57 @@
+{
+ "whole_file_mode": [
+  "tests/test_utils/test_make_default_short_help.py"
+ ],
+ "label": "click#3865",
+ "base": "6d5bac5c712195cbfa9666ba0ecbf0573cdea356",
+ "head": "f67c2bb6c2f055c1c7a57cd46c3697fc26a7742e",
+ "k": 3,
+ "changed_source_files": [
+  "src/click/utils.py"
+ ],
+ "changed_non_python": [
+  "CHANGES.md"
+ ],
+ "test_files_run": [
+  "tests/test_utils/test_make_default_short_help.py"
+ ],
+ "pytest_exit_codes": {
+  "head": [
+   0,
+   0,
+   0
+  ],
+  "base": [
+   1,
+   1,
+   1
+  ]
+ },
+ "env_fail": {
+  "head": false,
+  "base": false
+ },
+ "coverage_linkage": false,
+ "rows": [
+  {
+   "file": "tests/test_utils/test_make_default_short_help.py",
+   "test": "test_make_default_short_help",
+   "kind": "modified",
+   "verdict": "ASSERTION-DIFFERS",
+   "why": "assertion fails on base, passes on head: AssertionError: assert 'Weigh apples vs.' == 'Weigh apples vs. pears.'",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     36,
+     0
+    ],
+    "base": [
+     36,
+     6
+    ]
+   },
+   "base": "fail/assertion",
+   "head": "pass"
+  }
+ ]
+}

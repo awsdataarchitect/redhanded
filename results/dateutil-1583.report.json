@@ -1,0 +1,1816 @@
+{
+ "whole_file_mode": [],
+ "label": "dateutil#1583",
+ "base": "5391455e7c7839e300b63649041806fb5219432e",
+ "head": "b4c3ef2056958a2ecd6c4c2906e83896bb7aed91",
+ "k": 3,
+ "changed_source_files": [
+  "src/dateutil/relativedelta.py"
+ ],
+ "changed_non_python": [
+  "AUTHORS.md",
+  "changelog.d/1583.bugfix.rst"
+ ],
+ "test_files_run": [
+  "tests/test_relativedelta.py"
+ ],
+ "pytest_exit_codes": {
+  "head": [
+   0,
+   0,
+   0
+  ],
+  "base": [
+   1,
+   1,
+   1
+  ]
+ },
+ "env_fail": {
+  "head": false,
+  "base": false
+ },
+ "coverage_linkage": true,
+ "rows": [
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::test15thISOYearWeek",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testAbsoluteAddition",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testAbsoluteValueNegative",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testAbsoluteValuePositive",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testAddMoreThan12Months",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testAddNegativeMonths",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testAddTimedeltaToPopulatedRelativeDelta",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testAddTimedeltaToUnpopulatedRelativedelta",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testAddition",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testAdditionFloatFractionals",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testAdditionFloatValue",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testAdditionInvalidType",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testAdditionToDatetime",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testAdditionUnsupportedType",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testBoolean",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testComparison",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testDayOfMonthMinus",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testDayOfMonthPlus",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testDivision",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testDivisionUnsupportedType",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testHashable",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testInequalityNoneType",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testInequalityTypeMismatch",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testInequalityUnsupportedType",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testInequalityWeekdays",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testInheritance",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testInvalidYearDay",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testJohnAge",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testJohnAgeWithDate",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testLastDayOfFebruary",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testLastDayOfFebruaryLeapYear",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testLastDayOfMonthMinus",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testLastDayOfMonthPlus",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testLastFridayInThisMonth",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testMillenniumAge",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testMonthEndMonthBeginning",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testMonthEndMonthBeginningLeapYear",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testMonthOverflow",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testMonthsOfDiffNumOfDays",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testMonthsOfDiffNumOfDaysWithYears",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testMultiplication",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testMultiplicationUnsupportedType",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testNextFriday",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testNextFridayInt",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testNextMonth",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testNextMonthPlusOneWeek",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testNextMonthPlusOneWeek10am",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testNextMonthPlusOneWeek10amDiff",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testNextWednesdayIsToday",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testNextWednesdayNotToday",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testNonLeapYearDay",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testOneMonthBeforeOneYear",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testRelativeDeltaFractionalAbsolutes",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testRelativeDeltaFractionalDays",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testRelativeDeltaFractionalHours",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testRelativeDeltaFractionalMinutes",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testRelativeDeltaFractionalMonth",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testRelativeDeltaFractionalNegativeDays",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testRelativeDeltaFractionalNegativeOverflow",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testRelativeDeltaFractionalPositiveOverflow",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testRelativeDeltaFractionalPositiveOverflow2",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testRelativeDeltaFractionalRepr",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testRelativeDeltaFractionalSeconds",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testRelativeDeltaFractionalWeeks",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testRelativeDeltaFractionalYear",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testRelativeDeltaInvalidDatetimeObject",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testRelativeDeltaNormalizeFractionalDays",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testRelativeDeltaNormalizeFractionalDays2",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testRelativeDeltaNormalizeFractionalMinutes",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testRelativeDeltaNormalizeFractionalSeconds",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testRelativeDeltaRepr",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testRightAdditionToDatetime",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testRightSubtractionFromDatetime",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testSubractionWithDatetime",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testSubtraction",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testSubtractionInvalidType",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testSubtractionUnsupportedType",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testWeeks",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testYearDay",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaTest::testYearDayBug",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaWeeksPropertyGetterTest::test_height_days",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaWeeksPropertyGetterTest::test_minus_height_days",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaWeeksPropertyGetterTest::test_minus_one_day",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaWeeksPropertyGetterTest::test_one_day",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaWeeksPropertySetterTest::test_height_days_set_minus_one_week",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaWeeksPropertySetterTest::test_minus_height_days_set_minus_one_week",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaWeeksPropertySetterTest::test_minus_one_day_set_one_week",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "RelativeDeltaWeeksPropertySetterTest::test_one_day_set_one_week",
+   "kind": "unchanged",
+   "verdict": "NOT-RUN-ON-HEAD",
+   "why": "test did not run on head tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     0,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": null,
+   "head": null
+  },
+  {
+   "file": "tests/test_relativedelta.py",
+   "test": "test_yearday_is_ordinal_day",
+   "kind": "new",
+   "verdict": "ASSERTION-DIFFERS",
+   "why": "assertion fails on base, passes on head, executes 1 changed line(s): assert [datetime.dat...0, 1, 6), ...] == [datetime.dat...0, 1, 6), ...]",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     4,
+     0
+    ],
+    "base": [
+     4,
+     2
+    ]
+   },
+   "base": "fail/assertion",
+   "head": "pass"
+  }
+ ]
+}

@@ -1,0 +1,177 @@
+{
+ "whole_file_mode": [],
+ "label": "synthetic",
+ "base": "cfcaf08a40eab858e9efb5f2c035160f64616214",
+ "head": "bdda7cff2f14cbd6fe47e9ae35f6a858e9c4bd29",
+ "k": 5,
+ "changed_source_files": [
+  "pkg/calc.py"
+ ],
+ "changed_non_python": [],
+ "test_files_run": [
+  "tests/test_fix.py"
+ ],
+ "pytest_exit_codes": {
+  "head": [
+   0,
+   1,
+   0,
+   1,
+   0
+  ],
+  "base": [
+   4,
+   4,
+   4,
+   4,
+   4
+  ]
+ },
+ "env_fail": {
+  "head": false,
+  "base": false
+ },
+ "coverage_linkage": true,
+ "rows": [
+  {
+   "file": "tests/test_fix.py",
+   "test": "test_characterization",
+   "kind": "new",
+   "verdict": "NEEDS-NEW-API-NO-CHANGED-LINES",
+   "why": "file cannot import on base (ImportError) but on head this test executes no changed source line: it may only import the new symbol while checking old behavior",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": "fail/collection",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_fix.py",
+   "test": "test_divide_real_fix",
+   "kind": "new",
+   "verdict": "NEEDS-NEW-API",
+   "why": "file cannot import on base (ImportError: ImportError: cannot import name 'multiply' from 'pkg.calc' (/w/tree/pkg/calc.py)): shows a symbol is new, not that behavior was reproduced, executes 1 changed line(s)",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": "fail/collection",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_fix.py",
+   "test": "test_flaky",
+   "kind": "new",
+   "verdict": "FLAKY",
+   "why": "outcome differs between reruns on the same tree",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": "fail/collection",
+   "head": "mixed"
+  },
+  {
+   "file": "tests/test_fix.py",
+   "test": "test_multiply_real",
+   "kind": "new",
+   "verdict": "NEEDS-NEW-API",
+   "why": "file cannot import on base (ImportError: ImportError: cannot import name 'multiply' from 'pkg.calc' (/w/tree/pkg/calc.py)): shows a symbol is new, not that behavior was reproduced, executes 1 changed line(s)",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": "fail/collection",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_fix.py",
+   "test": "test_pct_param_error",
+   "kind": "new",
+   "verdict": "NEEDS-NEW-API",
+   "why": "file cannot import on base (ImportError: ImportError: cannot import name 'multiply' from 'pkg.calc' (/w/tree/pkg/calc.py)): shows a symbol is new, not that behavior was reproduced, executes 1 changed line(s)",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": "fail/collection",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_fix.py",
+   "test": "test_sneaky_import_only",
+   "kind": "new",
+   "verdict": "NEEDS-NEW-API-NO-CHANGED-LINES",
+   "why": "file cannot import on base (ImportError) but on head this test executes no changed source line: it may only import the new symbol while checking old behavior",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": "fail/collection",
+   "head": "pass"
+  },
+  {
+   "file": "tests/test_fix.py",
+   "test": "test_weak_assert",
+   "kind": "new",
+   "verdict": "NEEDS-NEW-API",
+   "why": "file cannot import on base (ImportError: ImportError: cannot import name 'multiply' from 'pkg.calc' (/w/tree/pkg/calc.py)): shows a symbol is new, not that behavior was reproduced, executes 1 changed line(s)",
+   "basis": "untouched-base",
+   "params": {
+    "head": [
+     1,
+     0
+    ],
+    "base": [
+     0,
+     0
+    ]
+   },
+   "base": "fail/collection",
+   "head": "pass"
+  }
+ ]
+}
